@@ -1,0 +1,217 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.back{
+    background-image: url(images/background.png);
+    background-size: cover;
+    height:100vh;
+    width: 100%;
+} 
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 81px;
+    width:100%;
+}
+.content{
+    display: flex;
+    height:80px ;
+    width: 1263px;
+}
+.logo{
+    width:205px ;
+    height: 45px;
+    margin-top: 0px;
+}
+.logo img{
+    height: 90px;
+    width: 190px;
+    cursor: pointer;
+}
+.nav{
+    height:80px ;
+    width:822px ;
+}
+  
+.menu{
+    display:flex;
+    height: 80px;
+    width: 792px;
+    margin-left: 15px;
+    justify-content: space-around;
+    color: aliceblue;
+} 
+
+.menu h4{
+    margin-top: 27px;
+    cursor: pointer;
+}
+
+.icon{
+    margin-top:30px;
+    margin-left:80px;
+    height:24px ;
+    width: 205px;
+}
+.icon img{
+    width: 25px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.space{
+    width:100%;
+    height: 70px;
+}
+section{
+    height:772px ;
+  padding-top: 100px;
+    width: 100%;
+    background-color: #9C4041;
+}
+ .row{
+    display: flex;
+    margin: auto;
+    height:612px ;
+    width:1170px ;
+} 
+
+.pic{
+    height: 612px;
+    width: 585px;
+}
+.pic img{
+    height:612px ;
+    width: 555px;
+}
+.para{
+    margin-top: 110px;
+    height:355px ;
+    width: 585px;
+    color: white; 
+}
+.para p{
+    height: 24px;
+    width: 444px;
+    margin: 25px;
+}
+.para h1{
+    height:162px ;
+    width:444px ;
+    margin: 25px;
+    font-size: 48px;
+}
+.para button{
+    height: 47px;
+    width: 138px;
+    border: 2px solid #bc9e33;
+    cursor: pointer;
+    margin: 25px;
+    color: #bc9e33;
+    background-color:#9C4041;
+    font-weight: bold;
+}
+.para button:hover{
+    background-color: #bc9e33 ;
+    color: black;
+}
+footer{
+  height:546px ;
+  width:100% ;
+  background-color:black;
+  padding-top:4%;
+  
+}
+
+.col{
+    height:446px ;
+    width: 1170px;
+    margin: auto;
+    display: flex;
+}
+
+.coltop{
+    display: flex;
+    height: 75px;
+    width: 1170px;
+}
+
+.coltop h5{
+    height:40px ;
+    width: 847px;
+    margin: 5px;
+    font-size: 42px;
+    color:#7C682A;
+}
+.coltop p{
+    font-size: 16px;
+    margin: 5px;
+    color:  #D1BD74;
+}
+.butt{
+    height: 75px;
+    width: 292px;
+    display: flex;
+}
+.butt button{
+    height: 47px;
+    width: 150px;
+    border: 2px solid #bc9e33;
+    cursor: pointer;
+    margin: 25px;
+    color: #bc9e33;
+    background-color:#0a0a0a;
+    font-weight: bold;
+}
+.butt button:hover{
+    background-color: #bc9e33 ;
+    color: black;
+}
+.collast{
+    display: flex;
+    height: 291px;
+    width: 1170px;
+    margin-left: 90px;
+    margin-top: -20%;
+    padding-top: 10%    ;
+    border-top:1px solid  #ddc673 ;
+}
+.footlogo{
+    height:35px;
+    width:390px;
+}
+.footlogo img{
+    height:100px;
+    width:200px;
+    margin-left: 20%;
+    cursor: pointer;
+}
+#para{
+    width: 250px;
+}
+.footbox{
+    height:210px;
+    width:287px;
+    margin-top: -6%;
+}
+.footbox p{
+    padding: 5%;
+    color: #bc9e33;
+    font-size: 18px;
+}
+.list{
+    height: 175px;
+    width: 292px;
+    margin-top: -4%;
+    margin-left:200px ;
+    font-size: 16px;
+}
+.list li{
+    height:30px ;
+    width: 262px;
+    color: #bc9e33;
+    list-style: none;
+    cursor: pointer;
+}
